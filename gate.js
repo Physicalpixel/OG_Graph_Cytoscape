@@ -29,7 +29,7 @@ document.addEventListener("DOMContentLoaded", function () {
           },
 
           width: function (ele) {
-            var gate = ele._private["data"]["influencer_score"];
+            var gate = ele._private["data"]["gate_keeper_score"];
             if (gate < 0.021) {
               return 20;
             } else if (gate >= 0.021 && gate < 0.043) {
@@ -40,7 +40,7 @@ document.addEventListener("DOMContentLoaded", function () {
           },
 
           height: function (ele) {
-            var gate = ele._private["data"]["influencer_score"];
+            var gate = ele._private["data"]["gate_keeper_score"];
             if (gate < 0.021) {
               return 20;
             } else if (gate >= 0.021 && gate < 0.043) {
@@ -51,11 +51,11 @@ document.addEventListener("DOMContentLoaded", function () {
           },
 
           ["label"]: function (ele) {
-            return ele._private["data"]["first_name"];
+            return ele.id();
           },
 
           "font-size": function (ele) {
-            var gate = ele._private["data"]["influencer_score"];
+            var gate = ele._private["data"]["gate_keeper_score"];
             if (gate < 0.021) {
               return 0;
             } else if (gate >= 0.021) {
@@ -83,7 +83,7 @@ document.addEventListener("DOMContentLoaded", function () {
           opacity: 1,
           "target-arrow-shape": "triangle-backcurve",
           "target-arrow-color": "grey",
-          "arrow-scale": 3,
+          "arrow-scale": 2,
           "curve-style": "bezier",
           "line-opacity": 1,
         },
