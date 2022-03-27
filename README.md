@@ -8,4 +8,6 @@
 
 [Ego_graph](https://physicalpixel.github.io/OG_Graph_Cytoscape/index_ego.html)
 
+[All_Communities](https://physicalpixel.github.io/OG_Graph_Cytoscape/index_all_communities.html)
+
 [Individual Community](https://physicalpixel.github.io/OG_Graph_Cytoscape/index_individual_Community.html)
