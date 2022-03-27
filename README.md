@@ -4,3 +4,5 @@
 
 [GateKeeper Score](https://physicalpixel.github.io/OG_Graph_Cytoscape/index_gate.html)
 
+[Leadership_energy_graph](https://physicalpixel.github.io/OG_Graph_Cytoscape/index_Leadership.html)
+
