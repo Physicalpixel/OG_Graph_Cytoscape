@@ -6,3 +6,4 @@
 
 [Leadership_energy_graph](https://physicalpixel.github.io/OG_Graph_Cytoscape/index_Leadership.html)
 
+[Ego_graph](https://physicalpixel.github.io/OG_Graph_Cytoscape/index_ego.html)
